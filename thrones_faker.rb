@@ -13,11 +13,10 @@ class DavidFaker
 			"New Ghis", "Tolos", "Mantarys"].sample
 	end
  
-	def self.words
-		puts "Step 1"
-		get_words.sample
+	def self.words(number)
+		get_words.sample(number).join(' ')
 	end
 
 end
 
-p DavidFaker.words
+p DavidFaker.words(4)
