@@ -1,3 +1,4 @@
+require_relative 'noko'
 class DavidFaker
 	def self.name
 		["Joffrey Lannister", "Cersei Lannister", "Tywin Lannister", "Tyrion Lannister",
@@ -11,8 +12,12 @@ class DavidFaker
 			"Myr", "Qohor", "Tyrosh", "White Harbor", "Lannisport", "Old Ghis", "Norvos", "Elyria",
 			"New Ghis", "Tolos", "Mantarys"].sample
 	end
-
+ 
 	def self.words
+		puts "Step 1"
+		get_words.sample
 	end
 
 end
+
+p DavidFaker.words
