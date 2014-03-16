@@ -3,7 +3,7 @@ class DavidFaker
 	def self.name
 		["Joffrey Lannister", "Cersei Lannister", "Tywin Lannister", "Tyrion Lannister",
 		"Brienne Tarth", "Bran Stark", "Arya Stark", "Rob Stark", "Theon Greyjoy", "Peter Baelish", "Stannis Baratheon",
-		"Daenerys Targaryen", "Jorah Mormont", "Mance Raydar" ].shuffle.pop
+		"Daenerys Targaryen", "Jorah Mormont", "Mance Raydar" ].sample
 	end
 
 	def self.city
@@ -18,5 +18,3 @@ class DavidFaker
 	end
 
 end
-
-p DavidFaker.words(4)
