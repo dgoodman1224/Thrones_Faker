@@ -1,26 +1,29 @@
-Thrones_Faker
-=============
+# ThronesFaker
 
-A Game of Thrones based Faker 
+TODO: Write a gem description
 
-This gem will consist of the following capabilities:
+## Installation
 
-name ex: "Jorah Mormont"
+Add this line to your application's Gemfile:
 
-city ex: "Braavos"
+    gem 'thrones_faker'
 
-dothraki(number_of_words) ex: "hol shieraki shekhik"
+And then execute:
 
+    $ bundle
 
-========================
+Or install it yourself as:
 
-As of now this is going to be created as a class, with each fake information
-generator a class method so it can be called as ThronesFaker.name etc.  
-As of now I am avoiding making modules so we will not have to follow the Faker
-syntax of Faker::Name.name etc.
+    $ gem install thrones_faker
 
-If it gets too complicated perhaps I will separate it out more.
+## Usage
 
-As of now the names and cities are being hard-coded into an array, while the 
-Dothraki is being scraped via Nokogiri.  I am determining whether or not to
-hardcode in the Dothraki as well.
+TODO: Write usage instructions here
+
+## Contributing
+
+1. Fork it ( http://github.com/<my-github-username>/thrones_faker/fork )
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
