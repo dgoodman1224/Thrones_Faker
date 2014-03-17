@@ -18,7 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+For a name:
+
+ThronesFaker.name
+
+For a city:
+
+ThronesFaker.city
+
+For a Dothraki string:
+
+ThronesFaker.words(number)
 
 ## Contributing
 
