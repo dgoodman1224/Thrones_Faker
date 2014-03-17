@@ -1,6 +1,8 @@
 require 'nokogiri'
 require 'open-uri'
 
+##This was used to originally get a large amount of dotrhak words
+# I then hardcoded the results into the array within the dothrak method below
 def get_words
 page = Nokogiri::HTML(open("http://wiki.dothraki.org/Idioms_and_Phrases"))
 dictionary = page.css("li b").text
