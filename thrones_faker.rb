@@ -1,20 +1,17 @@
 require_relative 'noko'
-class DavidFaker
+class ThronesFaker
 	def self.name
-		["Joffrey Lannister", "Cersei Lannister", "Tywin Lannister", "Tyrion Lannister",
-		"Brienne Tarth", "Bran Stark", "Arya Stark", "Rob Stark", "Theon Greyjoy", "Peter Baelish", "Stannis Baratheon",
-		"Daenerys Targaryen", "Jorah Mormont", "Mance Raydar" ].sample
+		names.sample
 	end
 
 	def self.city
-		["Winterfell", "Braavos", "Meereen", "Volantis", "King's Landing", "Asshai",
-			"Qarth", "Astapor", "Vaes Dothrak", "Yunkai", "Pentos", "Valyria", "Lorath", "Sunspear", "Lys",
-			"Myr", "Qohor", "Tyrosh", "White Harbor", "Lannisport", "Old Ghis", "Norvos", "Elyria",
-			"New Ghis", "Tolos", "Mantarys"].sample
+		cities.sample
 	end
  
 	def self.words(number)
-		get_words.sample(number).join(' ')
+		dothrak.sample(number).join(' ').downcase.capitalize
 	end
 
 end
+
+p ThronesFaker.words 10
