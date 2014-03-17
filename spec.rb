@@ -40,11 +40,11 @@ describe ThronesFaker do
 			expect(ThronesFaker.words(3).class).to eq String
 		end
 
-		it "should be a words" do
+		it "returns a series of words" do
 			expect(ThronesFaker.words(3).match(/w.+/))
 		end
 
-		it "#words should return a different words each time" do
+		it "returns different words" do
 			cities = Array.new
 			5.times do
 				cities << ThronesFaker.words(3)
@@ -52,11 +52,13 @@ describe ThronesFaker do
 			expect(cities.uniq.count).to eq 5
 		end
 
-		it "should capitalize the first letter" do
+		it "returns the right amount fo words" do 
+			sentance = ThronesFaker.words(10)
+			expect(sentance.split(" ").count).to eq 10
+		end
+
+		it "capitalizes the first letter" do
 			sentance = ThronesFaker.words(5)
 			expect(sentance[0]).not_to eq sentance[0].downcase
 		end
-
-
-	
 end
