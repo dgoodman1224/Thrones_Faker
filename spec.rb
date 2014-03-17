@@ -52,6 +52,11 @@ describe ThronesFaker do
 			expect(cities.uniq.count).to eq 5
 		end
 
+		it "should capitalize the first letter" do
+			sentance = ThronesFaker.words(5)
+			expect(sentance[0]).not_to eq sentance[0].downcase
+		end
+
 
 	
 end

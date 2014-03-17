@@ -17,7 +17,9 @@ def names
 		"Daenerys Targaryen", "Jorah Mormont", "Mance Raydar", "Jamie Lannister", "Davos Seaworth", 
 		"Stannis Baratheon", "Margaery Tyrell", "Bran Stark", "Sansa Stark", "Arya Stark", "Viserys Targaryen",
 		"Khal Drago", "Aerys Targaryen", "Aegon Targaryen", "Gregor Clegane", "Sandor Clegane", "Mace Tyrell", "Willas Tyrell",
-		"Loras Tyrell", "Renly Baratheon", "Eddard Stark", "Osney Kettleblack", "Tommen Lannister" ]
+		"Loras Tyrell", "Renly Baratheon", "Eddard Stark", "Osney Kettleblack", "Tommen Lannister",
+		"Doran Martell", "Arianne Martell", "Quentyn Martell", "Trystane Martell", "Jaqen H'ghar", "Yorko Terys",
+		"Pyat Pree", "Xaro Xhoan Daxos"  ]
 end
 
 def cities
