@@ -1,5 +1,5 @@
 require 'rspec'
-require_relative 'thrones_faker'
+require_relative '../lib/thrones_faker'
 
 
 describe ThronesFaker do
