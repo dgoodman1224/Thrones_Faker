@@ -20,8 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-ThronesFaker works very simply. You call ThronesFaker as a class, and the returns are from class based methods.  So it is simply Thrones.faker#method for each.  Below are the current 3 capabilities 
-
+ThronesFaker works very simply. Call ThronesFaker followed by the fake data type you wish to return.  Below are the current three capabilities.
 ##To return names:
 
 ThronesFaker.name
