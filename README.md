@@ -22,23 +22,23 @@ Or install it yourself as:
 
 ThronesFaker works very simply. You call ThronesFaker as a class, and the returns are from class based methods.  So it is simply Thrones.faker#method for each.  Below are the current 3 capabilities 
 
-To return names:
+##To return names:
 
 ThronesFaker.name
 
-##example return:  "Stannis Baratheon"
+Example return:  "Stannis Baratheon"
 
 
-To return a city:
+##To return a city:
 
-##example return:  "Braavos"
+Example return:  "Braavos"
 
 
-To return a string of Dothraki:
+##To return a string of Dothraki:
 
 ThronesFaker.words(12)
 
-##example return:  "Sekke anha yera anha zhorase chek sek atthirarideshor yer ahilee dothrak thirat" 
+Example return:  "Sekke anha yera anha zhorase chek sek atthirarideshor yer ahilee dothrak thirat" 
 
 ## Contributing
 
