@@ -18,5 +18,3 @@ class ThronesFaker
 	end
 	
 end
-
-p ThronesFaker.name

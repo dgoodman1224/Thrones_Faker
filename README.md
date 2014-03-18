@@ -1,6 +1,6 @@
 # ThronesFaker
 
-TODO: Write a gem description
+Welcome to ThronesFaker, the first ever Game of Thrones based faker gem.  Faker is great, Game of Thrones is great, the combination is even greater than the sum of its parts.  Download, share, contribute, enjoy.
 
 ## Installation
 
@@ -22,13 +22,19 @@ For a name:
 
 ThronesFaker.name
 
+Example return: "Jorah Mormont"
+
 For a city:
 
 ThronesFaker.city
 
+Example return: "Sunspear"
+
 For a Dothraki string:
 
 ThronesFaker.words(number)
+
+Example return: "Sekke anha yera anha zhorase chek sek atthirarideshor yer ahilee dothrak thirat"
 
 ## Contributing
 
