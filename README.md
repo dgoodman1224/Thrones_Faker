@@ -20,21 +20,24 @@ Or install it yourself as:
 
 For a name:
 
+```ruby
 ThronesFaker.name
-
-Example return: "Jorah Mormont"
+#=> "Jorah Mormont"
+```
 
 For a city:
 
+```ruby
 ThronesFaker.city
-
-Example return: "Sunspear"
+#=> "Sunspear"
+```
 
 For a Dothraki string:
 
+```ruby
 ThronesFaker.words(number)
-
-Example return: "Sekke anha yera anha zhorase chek sek atthirarideshor yer ahilee dothrak thirat"
+#=> "Sekke anha yera anha zhorase chek sek atthirarideshor yer ahilee dothrak thirat"
+```
 
 ## Contributing
 
