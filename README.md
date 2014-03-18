@@ -1,6 +1,8 @@
 # ThronesFaker
 
-TODO: Write a gem description
+This is a gem that returns data based on Game of Thrones.  As of now it returns
+names, cities, and a string of Dothraki however long the user wants.  Download, share,
+contribute, and enjoy.
 
 ## Installation
 
@@ -18,7 +20,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+ThronesFaker works very simply. You call ThronesFaker as a class, and the returns are from class based methods.  So it is simply Thrones.faker#method for each.  Below are the current 3 capabilities 
+
+To return names:
+
+ThronesFaker.name
+
+##example return:  "Stannis Baratheon"
+
+
+To return a city:
+
+##example return:  "Braavos"
+
+
+To return a string of Dothraki:
+
+ThronesFaker.words(12)
+
+##example return:  "Sekke anha yera anha zhorase chek sek atthirarideshor yer ahilee dothrak thirat" 
 
 ## Contributing
 
