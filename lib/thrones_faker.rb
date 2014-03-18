@@ -1,6 +1,7 @@
 require "thrones_faker/version"
 require 'nokogiri'
 require 'open-uri'
+require_relative 'data'
 
 class ThronesFaker
 
